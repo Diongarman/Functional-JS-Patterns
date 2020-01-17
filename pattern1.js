@@ -16,6 +16,13 @@ let profile = {
 
 console.log(profile.children[0].getName())
 
+
+/*
+                            +++++++++++++++
+                            |LOOSE BINDING|
+                            +++++++++++++++
+*/
+
 const getNameLoose = profile.getName;
 
 console.log(getNameLoose())
